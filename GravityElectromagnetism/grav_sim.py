@@ -87,7 +87,7 @@ params = gui_param(50, 20)
 
 # you need an interstellar .wav file to play this, otherwise just comment it out. Or put your own music in.
 from playsound import playsound
-playsound(r"C:\Users\jackm\PycharmProjects\3DSim\interstellar.wav", False)
+playsound(r"interstellar.wav", False)
 
 v.scene.height = 720
 v.scene.width = 1500
