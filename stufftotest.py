@@ -1,5 +1,6 @@
 
 import tkinter as tk
+import math as m
 #parameters: view trail, numplanets, xrange, vrange, mrange
 
 def gui_param(PADX, PADY):
@@ -61,4 +62,5 @@ def gui_param(PADX, PADY):
 
     return [int(numplanets.get()), int(xrange.get()), int(vrange.get()), int(mrange.get()), view_trail.get()]
 
-gui_param(50, 20)
+b = m.log2(-1)
+print(b)
